@@ -2,11 +2,11 @@
 
 This is a collection of Python Coding Lessons that I have developed for my role as a coding instructor. Most of the lessons are beginner friendly and can be scaled.
 
-Some lessons use [Python Turtle Graphics](https://docs.python.org/3/library/turtle.html). Note that to run these, you will need to have installed the [Tk interface package](https://docs.python.org/3/library/tkinter.html#module-tkinter). 
+Some lessons use [Python Turtle Graphics](https://docs.python.org/3/library/turtle.html). Note that to run these, you will need to have installed the [Tk interface package](https://docs.python.org/3/library/tkinter.html#module-tkinter).
 
-For a quick and convenient way to run the programs, links are also provided to the project files on [Replit](https://replit.com/), where they can be easily forked. 
+For a quick and convenient way to run the programs, links are also provided to the project files on [Replit](https://replit.com/), where they can be easily forked.
 
-### Terminal-Based 
+### Terminal-Based
 | Title | Level | Replit |
 | ----------- | ----------- | ----------- |
 | [Math Quiz](./math_quiz.py) | Scalable | [Repl](https://replit.com/@tpett/Math-Quiz-Game) |
@@ -19,3 +19,4 @@ For a quick and convenient way to run the programs, links are also provided to t
 | Title | Level | Replit |
 | ----------- | ----------- | ----------- |
 | [Turtle Jump](./Turtle/turtle_jump.py) | Beginner | [Repl](https://replit.com/@tpett/Turtle-Jump) |
+| [Concentric Circles](./Turtle/concentric_circles.py) | Scalable | [Repl](https://replit.com/@tpett/Concentric-Circles) |
