@@ -9,14 +9,15 @@ For a quick and convenient way to run the programs, links are also provided to t
 ### Terminal-Based
 | Title | Level | Replit |
 | ----------- | ----------- | ----------- |
-| [Math Quiz](./math_quiz.py) | Scalable | [Repl](https://replit.com/@tpett/Math-Quiz-Game) |
-| [Word Scramble](./word_scramble.py) | Scalable | [Repl](https://replit.com/@tpett/Word-Scramble) |
-| [Themed Quiz](./themed_quiz.py) | Beginner | [Repl](https://replit.com/@tpett/Baseball-Quiz) |
-| [Memory Match](./memory_match.py) | Scalable | [Repl](https://replit.com/@tpett/Memory-Match) |
-| [Lost Pet](./lost_pet.py) | Beginner | [Repl](https://replit.com/@tpett/Find-the-Lost-Dog) |
+| [Math Quiz](./Terminal/math_quiz.py) | Scalable | [Repl](https://replit.com/@tpett/Math-Quiz-Game) |
+| [Word Scramble](./Terminal/word_scramble.py) | Scalable | [Repl](https://replit.com/@tpett/Word-Scramble) |
+| [Themed Quiz](./Terminal/themed_quiz.py) | Beginner | [Repl](https://replit.com/@tpett/Baseball-Quiz) |
+| [Memory Match](./Terminal/memory_match.py) | Scalable | [Repl](https://replit.com/@tpett/Memory-Match) |
+| [Lost Pet](./Terminal/lost_pet.py) | Beginner | [Repl](https://replit.com/@tpett/Find-the-Lost-Dog) |
 
 ### Python Turtle 🐢
 | Title | Level | Replit |
 | ----------- | ----------- | ----------- |
 | [Turtle Jump](./Turtle/turtle_jump.py) | Beginner | [Repl](https://replit.com/@tpett/Turtle-Jump) |
 | [Concentric Circles](./Turtle/concentric_circles.py) | Scalable | [Repl](https://replit.com/@tpett/Concentric-Circles) |
+| [Count the Colors](./Turtle/count_the_colors.py) | Beginner | [Repl](https://replit.com/@tpett/Count-the-Colors) |
