@@ -11,6 +11,7 @@ For a quick and convenient way to run the programs, links are also provided to t
 | ----------- | ----------- | ----------- |
 | [Math Quiz](./Terminal/math_quiz.py) | Scalable | [Repl](https://replit.com/@tpett/Math-Quiz-Game) |
 | [Word Scramble](./Terminal/word_scramble.py) | Scalable | [Repl](https://replit.com/@tpett/Word-Scramble) |
+| [Simon String](./Terminal/simon_string.py) | Scalable | [Repl](https://replit.com/@tpett/Simon-String) |
 | [Themed Quiz](./Terminal/themed_quiz.py) | Beginner | [Repl](https://replit.com/@tpett/Baseball-Quiz) |
 | [Memory Match](./Terminal/memory_match.py) | Scalable | [Repl](https://replit.com/@tpett/Memory-Match) |
 | [Lost Pet](./Terminal/lost_pet.py) | Beginner | [Repl](https://replit.com/@tpett/Find-the-Lost-Dog) |
