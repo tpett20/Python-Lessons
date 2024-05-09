@@ -32,11 +32,21 @@ for row in range(10):
         t.write(f"     {len(sprites)}")
         sprites.append(t)
 
-def hide_turtles(low, high):
-    # In our loop, we must add 1 to the high value for it to be included
-    for i in range(low, high + 1):
-        sprites[i].clear()
-        sprites[i].hideturtle()
+def hide_turtles(low, high, dir):
+    # Depending on the specified direction, 
+    # we can either hide our turtles from low to high or high to low
+    if dir == "R":
+        # For low to high, we'll use a standard loop
+        # For the range, we must add 1 to the high value for it to be included
+        for i in range(low, high + 1):
+            sprites[i].clear()
+            sprites[i].hideturtle()
+    else:
+        # For high to low, we'll use a backwards loop
+        # For the range, we must deduct 1 from the low value for it to be included
+        for i in range(high, low - 1, -1):
+            sprites[i].clear()
+            sprites[i].hideturtle()
 
 floor = 0
 ceil = len(sprites) - 1
@@ -47,18 +57,22 @@ guess = int(input(f"Guess the magic turtle ({floor}-{ceil}):\n"))
 while guess != magic_idx:
     if guess < magic_idx:
         # If our guess is too low, we can rule out any turtle from the floor up to our guess
-        hide_turtles(floor, guess)
-        # Then the guess becomes our new floor
-        floor = guess
-        guess = int(input("Guess Higher: \n"))
+        hide_turtles(floor, guess, "R")
+        # Then the guess + 1 becomes our new floor
+        floor = guess + 1
+        guess = int(input(f"Guess Higher ({floor}-{ceil}): \n"))
     else:
         # If our guess is too high, we can rule out any turtle between the guess and our ceiling
-        hide_turtles(guess, ceil)
-        # Then the guess becomes our new ceiling
-        ceil = guess
-        guess = int(input("Guess Lower: \n"))
+        hide_turtles(guess, ceil, "L")
+        # Then the guess - 1 becomes our new ceiling
+        ceil = guess - 1
+        guess = int(input(f"Guess Lower ({floor}-{ceil}): \n"))
 
 # Once we exit our loop, we've found the magic turtle!
+# So we can hide all the others
+hide_turtles(floor, guess - 1, "R")
+hide_turtles(guess + 1, ceil, "L")
+
 print(f"Correct! Turtle {magic_idx} is the Magic Turtle")
 screen.bgcolor("light green")
 magic_turtle = sprites[magic_idx]
