@@ -14,7 +14,7 @@ For a quick and convenient way to run the programs, links are also provided to t
 | [Simon String](./Terminal/simon_string.py) | Scalable | [Repl](https://replit.com/@tpett/Simon-String) |
 | [Themed Quiz](./Terminal/themed_quiz.py) | Beginner | [Repl](https://replit.com/@tpett/Baseball-Quiz) |
 | [Memory Match](./Terminal/memory_match.py) | Scalable | [Repl](https://replit.com/@tpett/Memory-Match) |
-| [Memory Match](./Terminal/memory_match_v2.py) | Scalable | [Repl](https://replit.com/@tpett/Memory-Match-V2) |
+| [Memory Match V2](./Terminal/memory_match_v2.py) | Scalable | [Repl](https://replit.com/@tpett/Memory-Match-V2) |
 | [Lost Pet](./Terminal/lost_pet.py) | Beginner | [Repl](https://replit.com/@tpett/Find-the-Lost-Dog) |
 
 ### Python Turtle 🐢
