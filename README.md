@@ -16,6 +16,7 @@ For a quick and convenient way to run the programs, links are also provided to t
 | [Memory Match](./Terminal/memory_match.py) | Scalable | [Repl](https://replit.com/@tpett/Memory-Match) |
 | [Memory Match V2](./Terminal/memory_match_v2.py) | Scalable | [Repl](https://replit.com/@tpett/Memory-Match-V2) |
 | [Lost Pet](./Terminal/lost_pet.py) | Beginner | [Repl](https://replit.com/@tpett/Find-the-Lost-Dog) |
+| [Name Game](./Terminal/name_game.py) | Intermediate | [CodeHS](https://codehs.com/sandbox/tpett200/emoji-name-game) |
 
 ### Python Turtle 🐢
 | Title | Level | Replit |
