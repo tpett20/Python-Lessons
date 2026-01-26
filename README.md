@@ -25,3 +25,4 @@ For a quick and convenient way to run the programs, links are also provided to t
 | [Random Turtle Guesser](./Turtle/random_turtle_guesser.py) | Intermediate | [Repl](https://replit.com/@tpett/Random-Turtle-Guesser) |
 | [Concentric Circles](./Turtle/concentric_circles.py) | Scalable | [Repl](https://replit.com/@tpett/Concentric-Circles) |
 | [Count the Colors](./Turtle/count_the_colors.py) | Beginner | [Repl](https://replit.com/@tpett/Count-the-Colors) |
+| [Paper Football](./Turtle/paper_football.py) | Semi-Beginner | [CodeHS](https://codehs.com/sandbox/tpett200/paper-football) |
